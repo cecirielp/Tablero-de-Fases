@@ -38,6 +38,9 @@ Análisis de líneas enfocado en aislar el comportamiento del paso inicial del p
 
 Esta sección del dashboard está diseñada específicamente para auditar las ineficiencias en el proceso de consolidación de carga, analizando el impacto de los "restos" (mercadería que no logra ser consolidada en el viaje principal) sobre los tiempos de estadía y la frecuencia de remontes.
 
+<img width="1346" height="524" alt="Restos" src="https://github.com/user-attachments/assets/4133dc5b-9ff8-455e-848f-9e923896064a" />
+
+
 1. Distribución de Restos vs. Hojas de Carga (HDC)
 
 Un análisis que cuantifica cuántas hojas de carga sufren la incidencia de restos dejados, permitiendo medir la severidad de la problemática por volumen de eventos.
@@ -57,12 +60,17 @@ Un histograma de distribución horaria (0 a 23 hs) que identifica los picos crí
 🕒 Módulo Avanzado: Análisis de Estadía por Horas, Turnos y Fases de Expedición
 
 Este panel analítico permite cruzar variables temporales críticas para identificar el rendimiento operativo y de personal a lo largo de la jornada. Al correlacionar el volumen de viajes con la estadía real por franja horaria y turno de trabajo, el negocio puede ajustar las capacidades de los muelles y optimizar las dotaciones en los pases de turno.
+<img width="1349" height="347" alt="Estadía 1" src="https://github.com/user-attachments/assets/3546f0ec-3645-4a0f-9ffc-ee0ef5997dfb" />
 
 1. Estadía Dinámica por Hora y Turnos Operativos
 
 Análisis Horario (0 a 17+ Hs): Gráfico combinado que expone las horas pico de congestión en los muelles y cómo impacta la saturación de la demanda en el Lead Time real dentro del centro logístico.
 
 Métrica por Turno de Trabajo (1-N/N al 6-T/N): Vista consolidada para evaluar el desempeño e identificar desvíos analizando las dinámicas de equipos específicas y los pases de turno.
+
+
+<img width="1342" height="238" alt="fases x hora" src="https://github.com/user-attachments/assets/55aac357-b18f-42fb-9156-511495b85f30" />
+
 
 2. Apertura Micro-Secuencial (Auditoría de las 4 Fases de Expedición)
 
@@ -79,6 +87,8 @@ Fase 4 (Salida de CD): Monitorea el tramo final del ciclo, midiendo el tiempo qu
 🔍 Módulo de Auditoría Transaccional: Detalle de Viajes y Matriz de Alertas
 
 Para dar soporte técnico a la operación diaria, el dashboard cuenta con una vista granular de máximo detalle (Drill-down). Esta matriz permite realizar auditorías exhaustivas sobre despachos individuales cruzando identificadores únicos como el Centro Logístico (Almacén), el número de transporte (Interno) y la Hoja de Carga.
+
+<img width="1362" height="514" alt="detalle de viajes" src="https://github.com/user-attachments/assets/9a818e5a-601b-4bc8-a48c-55e5adf0966d" />
 
 Características Clave de la Herramienta:
 
