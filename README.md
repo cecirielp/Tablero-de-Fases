@@ -41,6 +41,28 @@ Un histograma de distribución horaria (0 a 23 hs) que identifica los picos crí
 
 ---
 
+## 🕒 Módulo Avanzado: Análisis de Estadía por Horas, Turnos y Fases de Expedición
+
+Este panel analítico permite cruzar variables temporales críticas para identificar el rendimiento operativo y de personal a lo largo de la jornada. Al correlacionar el volumen de viajes con la estadía real por franja horaria y turno de trabajo, el negocio puede ajustar las capacidades de los muelles y optimizar las dotaciones en los pases de turno.
+
+<img width="1349" height="347" alt="Estadía 1" src="https://github.com/user-attachments/assets/ecd9a058-5bba-44fa-8b16-45280845db6d" />
+
+### 1. Estadía Dinámica por Hora y Turnos Operativos
+* **Análisis Horario (0 a 17+ Hs):** Gráfico combinado que expone las horas pico de congestión en los muelles y cómo impacta la saturación de la demanda en el Lead Time real dentro del centro logístico.
+* **Métrica por Turno de Trabajo (1-N/N al 6-T/N):** Vista consolidada para evaluar el desempeño e identificar desvíos analizando las dinámicas de equipos específicas y los pases de turno.
+
+### 2. Apertura Micro-Secuencial (Auditoría de las 4 Fases de Expedición)
+El núcleo del seguimiento del transporte se divide en un análisis modular que desglosa el Lead Time de las unidades a través de sus **cuatro etapas consecutivas de expedición**. Esta lógica permite cruzar datos transaccionales del camión con la lectura de bultos del sistema para aislar quirúrgicamente dónde se genera cada cuello de botella:
+
+* **Fase 1 (Check-in a Asignación):** Mide el tiempo transcurrido desde la llegada física del interno al Centro de Distribución hasta que se le asigna efectivamente su muelle y hoja de carga (HDC). Permite detectar demoras en la planificación de ingresos.
+* **Fase 2 (Proceso de Carga - Picking/Estiba):** Controla la ventana operativa de carga neta, cronometrando de forma exacta desde la lectura del primer formato hasta el último bulto consolidado arriba del camión.
+* **Fase 3 (Cierre de Carga a Documentación):** Registra el tiempo muerto que transcurre desde que el operario lee el último formato hasta que el equipo administrativo emite e imprime la documentación de tránsito obligatoria.
+* **Fase 4 (Salida de CD):** Monitorea el tramo final del ciclo, midiendo el tiempo que le toma al transportista retirar los papeles, preparar la unidad y cruzar la barrera de salida definitiva del predio.
+
+<img width="1342" height="238" alt="fases x hora" src="https://github.com/user-attachments/assets/be831fee-3a2b-46cd-b8aa-6af6379fd86f" />
+
+---
+
 ## 📌 Introducción y Contexto del Negocio
 En operaciones logísticas y de gestión de procesos complejas, los datos crudos de los sistemas transaccionales (como AS400 o ERPs tradicionales) suelen mostrar registros planos con marcas de tiempo. Esto dificulta que los coordinadores identifiquen de forma inmediata en qué etapa o fase del ciclo operativo se encuentran retenidos los pedidos, lotes o tareas.
 
