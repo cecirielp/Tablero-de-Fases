@@ -5,8 +5,11 @@ Este repositorio contiene la documentación y estructura analítica de un cuadro
 🖥️ Vista del Tablero: Detalle General
 
 <img width="674" height="314" alt="1" src="https://github.com/user-attachments/assets/9ef6c452-b8a0-4ff2-b83d-4f4480f84447" />
+
 <img width="520" height="325" alt="2" src="https://github.com/user-attachments/assets/e6607dc7-17bd-40a1-b2ad-cef8a78f232d" />
+
 <img width="677" height="315" alt="3" src="https://github.com/user-attachments/assets/7b10645d-cf2a-4980-8d6d-de867fff192b" />
+
 <img width="672" height="325" alt="4" src="https://github.com/user-attachments/assets/cc2f8af5-88f7-412f-9758-bf11946107d8" />
 
 
