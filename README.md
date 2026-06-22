@@ -61,6 +61,16 @@ El núcleo del seguimiento del transporte se divide en un análisis modular que 
 
 <img width="1342" height="238" alt="fases x hora" src="https://github.com/user-attachments/assets/be831fee-3a2b-46cd-b8aa-6af6379fd86f" />
 
+## 🔍 Módulo de Auditoría Transaccional: Detalle de Viajes y Matriz de Alertas
+
+Para dar soporte técnico a la operación diaria, el dashboard cuenta con una vista granular de máximo detalle (Drill-down). Esta matriz permite realizar auditorías exhaustivas sobre despachos individuales cruzando identificadores únicos como el Centro Logístico (`Almacén`), el número de transporte (`Interno`) y la `Hoja de Carga`.
+
+<img width="1362" height="514" alt="detalle de viajes" src="https://github.com/user-attachments/assets/f90288e2-13ca-4ddf-a1d8-e0f89878a0d7" />
+
+
+### Características Clave de la Herramienta:
+* **Mapa de Calor Cromático (Semaforización):** Implementación de formato condicional visual (Verde/Amarillo/Rojo) basado en las desviaciones de tiempo respecto al SLA objetivo. Permite aislar al instante la subfase crítica que penalizó la `Estadía Real` de un viaje específico.
+* **Apertura de Subfases de Control:** El reporte desglosa de manera minuciosa micro-etapas (como las subfases de carga intermedio 4.1 y 4.2), otorgando trazabilidad total sobre los tiempos administrativos y logísticos.
 ---
 
 ## 📌 Introducción y Contexto del Negocio
